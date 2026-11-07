@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Listen to the Music",
+    "name": "Listen-to-the-music",
     "slug": "listen-to-the-music",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,12 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#0F172A"
       },
-      "package": "com.bigodegrosso.listentothemusic"
+      "package": "com.bigodegrosso.listentothemusic",
+      "enableProguardInReleaseBuilds": false
+     
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -27,6 +29,16 @@
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "a8109d88-4fab-49f1-9cb2-05271a3bd211"
+      }
+    }
   }
 }

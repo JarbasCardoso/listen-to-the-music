@@ -9,7 +9,7 @@ import {
   Animated,
   Easing,
 } from 'react-native';
-import { Audio } from 'expo-av';
+
 
 interface DevocionalItem {
   id: string;
