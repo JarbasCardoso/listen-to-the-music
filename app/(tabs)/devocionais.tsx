@@ -54,7 +54,7 @@ const DEVOCIONAIS_MOCK: DevocionalItem[] = [
     trechoLetra: '"Don\'t surround yourself with yourself... Initials will open pathways, with loving, yes."',
     textoReflexao:
       'Não te enclausures na tua própria dor. A vida convida-nos a dar um passo de cada vez, permitindo que a paciência e a abertura de coração tracem novos caminhos de luz em meio ao caos.',
-    audioUri: 'https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3',
+    audioUri: 'https://youtu.be/P6ABRUSApsI?si=4hCRTjo-uV7ksfxu',
   },
 ];
 
